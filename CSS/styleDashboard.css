@@ -1,0 +1,14 @@
+body {
+  background-image: url("../IMG/Hout.jpg");
+  background-size: cover;
+}
+
+.opdrachten ul {
+  width: 100%;
+  font-size: 60px;
+  list-style-type: none;
+}
+
+.opdrachten ul li a {
+  text-decoration: none;
+}
