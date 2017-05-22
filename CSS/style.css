@@ -4,11 +4,10 @@ beige(titels)  #e7cfb4
 donker rood #84240c
 geel beige oranje beige ding #ffc18c
 donkerste kleur is #563232
-
-
 */
 
 
 body {
-  background-image: url(../images/Hout.jpg);
+  background-image: url(../IMG/Hout.jpg);
+  background-size: cover;
 }
