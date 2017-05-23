@@ -5,16 +5,17 @@ var accounts = [];
 //inladen van de json
 $(function () {
   $.ajax({
-    url: 'data/Accounts.json'
-    , dataType: 'json'
-    , success: onSuccess
-    , error: function (err) {
+    url: 'data/Accounts.json',
+    dataType: 'json',
+    success: onSuccess,
+    error: function (err) {
       console.error('Fout: ', err);
     }
   })
 
   function onSuccess(data) {
-    accounts = data.accounts;
+    console.log(data);
+    accounts = data;
     gelukt();
   }
 });
@@ -37,40 +38,22 @@ var registreren = document.getElementById('button_registreren');
 //aanmelden email+ password of username+ password
 aanmelden.onclick = function () {
   console.log(document.getElementById('mail').value);
-  
+
   var usernameInput = document.getElementById('username_login').value;
-  
+  var emailInput = document.getElementById('mail').value;
+
   console.log(usernameInput + '1');
-  
+
   for (i = 0; i < accounts.length; i++) {
-    
+
     console.log(accounts[i].username + '2');
-    
-    if ( (document.getElementById('mail').value == accounts[i].email) || (usernameInput == accounts[i].username) ) 
-    {
+
+    if (emailInput == accounts[i].email || usernameInput == accounts[i].username) {
+      console.log('x');
       if (document.getElementById('password').value == accounts[i].password) {
+        console.log('y');
         window.location.href = "dashboard.html";
       }
     }
   };
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
