@@ -49,7 +49,7 @@ aanmelden.onclick = function () {
     if ( (document.getElementById('mail').value == accounts[i].email) || (usernameInput == accounts[i].username) ) 
     {
       if (document.getElementById('password').value == accounts[i].password) {
-        window.location.href = "index.html";
+        window.location.href = "dashboard.html";
       }
     }
   };
