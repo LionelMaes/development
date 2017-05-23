@@ -48,10 +48,24 @@ header {
   padding: 8%;
 }
 
+#bier {
+  width: 40%;
+  margin: 2em 25% 0 35%;
+}
+
+#aantalPunten {
+  margin: 0.5em 0 0 0;
+  text-align: center;
+  color: #E7CFB4;
+  font-size: 55px;
+  font-family: helvetica;
+}
+
 .opdrachten ul {
-  font-size: 60px;
+  font-family: helvetica;
+  font-size: 55px;
   list-style-type: none;
-  margin-top: 12em;
+  margin-top: 3em;
   padding: 0;
 }
 
