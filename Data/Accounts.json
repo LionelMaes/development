@@ -1,0 +1,16 @@
+{
+  "accounts":[
+   {
+     "username":"thebelge07",
+     "email":"lionel.maes@hotmail.fr",
+     "password":"george",
+     "leeftijd":20
+   },
+    {
+      "username":"lionel.maes",
+      "email":"lionel.maes@student.ehb.be",
+      "password":"lionel",
+      "leeftijd":22
+    }
+  ]
+}
