@@ -1,0 +1,79 @@
+@font-face {
+  font-family: retroHand;
+  src: url('../fonts/RETROHAND.ttf');
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+  background-image: url("../IMG/Hout.jpg");
+  background-size: cover;
+}
+
+.header {
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+
+#manApp {
+  font-family: retroHand;
+  color: #e7cfb4;
+  font-size: 55px;
+  padding-left: 2em;
+  margin-top: 0.7em;
+}
+
+#avatar {
+  height: 140px;
+  width: 140px;
+}
+
+#hamburger {
+  height: 60px;
+  width: 80px;
+  float: right;
+  margin-top: 2em;
+}
+
+header {
+  height: 150px;
+  padding: 8%;
+}
+
+#bier {
+  width: 35%;
+  margin: 2em 27.5% 0 37.5%;
+}
+
+#aantalPunten {
+  margin: 2em 0 0 0;
+  text-align: center;
+  color: #FFC18C;
+  font-size: 65px;
+  font-family: helvetica;
+}
+
+#teBereiken {
+  margin: 0.5em 0 0 0;
+  text-align: center;
+  color: #E7CFB4;
+  font-size: 45px;
+  font-family: helvetica;
+}
+
+button {
+  width: 50%;
+  font-size: 60px;
+  margin: 4em 25% 0 25%;
+  color: white;
+  background-color: #DA6D42;
+  line-height: 2em;
+}
