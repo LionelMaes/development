@@ -61,32 +61,25 @@ header {
   font-family: helvetica;
 }
 
-.opdrachten ul {
-  font-family: helvetica;
-  font-size: 55px;
-  list-style-type: none;
-  margin-top: 3em;
+nav ul {
+  margin-top: 10em;
   padding: 0;
 }
 
-.opdrachten ul li {
-  width: 100%;
+nav li {
+  color: white;
   text-align: center;
-}
-
-.opdrachten ul li a {
-  text-decoration: none;
-  display: block;
-  color: #e7cfb4;
+  color: #E7CFB4;
+  background-color: rgba(86, 50, 50, 0.5);
+  font-size: 55px;
+  list-style-type: none;
   line-height: 2.5em;
-  background-color: rgba(86, 50, 50, 0.6);
+  font-family: helvetica;
   border-style: solid;
-  border-width: 2px 0 0 0;
-  border-color: #e7cfb4;
+  border-width: 3px 0 0 0;
+  border-color: #E7CFB4;
 }
 
-.opdrachten ul li a:nth-child(4) {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-color: #e7cfb4;
+hr {
+  color: #E7CFB4;
 }
