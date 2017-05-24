@@ -8,59 +8,72 @@ font-family:"beer";
 font-family"retrohand";
 */
 
-
 body {
   background-image: url(../images/Hout.jpg);
   background-size: cover;
   color: #e7cfb4;
+  text-align: center;
 }
 
+<<<<<<< HEAD
 #hoofdpagina_logo{
   margin-left: 10%;
+=======
+#hoofdpagina_logo {
+  margin-left: 14%;
+>>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
   margin-top: 33%;
   width: 81%;
 }
-#a_hoofpagina{
+
+#a_hoofpagina {
   width: 100%;
   height: 100%;
 }
 
-#h1_hoofdpagina{
+#h1_hoofdpagina {
   font-family: "retrohand";
   color: #ffc18c;
+<<<<<<< HEAD
   font-size: 450%;
   margin-left: 13%;
   margin-top: 1%;
+=======
+  font-size: 66px;
+  margin-left: 17%;
+  margin-top: 14%;
+>>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
 }
-#login_logo{
+
+#login_logo {
   margin-left: 33%;
   margin-top: 10%;
   width: 35%;
 }
 
-input{
+input {
   width: 80%;
   height: 30px;
   margin-left: 10%;
-  /*margin-top: 7%;*/
+  margin-top: 7%;
 }
 
-#date_login{
+#date_login {
+  margin-top: 7%;
   width: 20%;
   margin-left: 40%;
 }
 
-#button_registreren{
+#button_registreren {
   background-color: #Da6d42;
   border: 0px;
   width: 30%;
   margin-left: 17%;
   color: white;
   display: inline-block;
-  margin-top: 8%;
 }
 
-#button_aanmelden{
+#button_aanmelden {
   background-color: #Da6d42;
   border: 0px;
   width: 30%;
@@ -68,36 +81,45 @@ input{
   color: white;
 }
 
-hr{
+hr {
   width: 25%;
   margin-top: 10%;
+<<<<<<< HEAD
   border-top: 1px solid #e7cfb4;
   border-color: #e7cfb4;
   background-color: #e7cfb4;
   color: #e7cfb4;
   display: inline-block; 
+=======
+  border-top: 1px solid #e7cbf4;
+  border-color: #e7cbf4;
+  background-color: #e7cbf4;
+  color: #e7cbf4;
+  display: inline-block;
+>>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
   float: left;
   margin-left: 5%;
 }
 
-#via{
+#via {
   margin-left: 10%;
   font-family: 'beer';
-  font-size: 150%;
+  font-size: 25px;
   display: inline-block;
 }
 
-#hr_left{
+#hr_left {
   float: right;
 }
 
-#facebook{
+#facebook {
   margin-left: 9%;
 }
 
-.connect img{
+.connect img {
   margin-top: 5%;
   width: 27%;
+<<<<<<< HEAD
 }
 
 a{
@@ -119,3 +141,6 @@ a{
     font-size: 370%;
   }
 }
+=======
+}
+>>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
