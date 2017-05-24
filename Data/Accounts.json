@@ -28,5 +28,11 @@
     "email": "weetikveel@gmail.com",
     "password": "anneliesisleuk",
     "leeftijd": 22
+    },
+    {
+    "username": "plastic",
+    "email": "rob.plas@student.ehb.be",
+    "password": "cola",
+    "leeftijd": 23
     }
   ]
