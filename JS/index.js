@@ -53,7 +53,7 @@ aanmelden.onclick = function () {
       if (document.getElementById('password').value == accounts[i].password) {
         console.log('y');
         window.location.href = "dashboard.html";
-      }
+      }else{alert('foute passwoord');}
     }
   };
 }
