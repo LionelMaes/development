@@ -8,20 +8,26 @@
   <title></title>
 </head>
 
-<header>
-  <img src="images/Avatar.png" class="header" id="avatar">
-  <p class="header" id="manApp">THE MANAPP</p>
-  <img src="images/HamburgerMenu.png" class="header" id="hamburger">
-</header>
-
-
 <body>
 
-  <img src="images/Beer.png" id="bier">
-  <p id="aantalPunten">150 punten</p>
-  <p id="teBereiken">Nog 250 punten voor een gratis pintje.</p>
+  <header>
+    <img src="images/Avatar.png" class="header" id="avatar">
+    <p class="header" id="manApp">THE MANAPP</p>
+    <img src="images/HamburgerMenu.png" class="header" id="hamburger">
+  </header>
 
-  <button type="button" onclick="claimReward()">Claim je pint</button>
+  <img src="images/Beer.png" id="bier">
+
+  <div id="parent">
+    <div id="child">
+      <p id="aantalPunten">150 punten</p>
+      <p id="teBereiken">Nog 250 punten voor een gratis pintje.</p>
+    </div>
+  </div>
+
+  <button onclick="claimReward()">Claim je pint</button>
+
+
 
   <script src="js/reward.js"></script>
 </body>
