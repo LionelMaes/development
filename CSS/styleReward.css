@@ -58,16 +58,15 @@ header {
   text-align: center;
   color: #FFC18C;
   font-size: 65px;
-  font-family: helvetica;
+  font-family: "helvetica";
 }
 
-#teBereiken,
-.titel {
+p {
   margin: 0.5em 0 0 0;
   text-align: center;
   color: #E7CFB4;
   font-size: 45px;
-  font-family: helvetica;
+  font-family: "helvetica";
 }
 
 button {
@@ -80,9 +79,8 @@ button {
   border-width: 0;
 }
 
-.titel {
-  background-color: rgba(86, 50, 50, 0.7);
-  padding-top: 0.5em;
-  margin-top: 1.5em;
-  padding-bottom: 0;
+#parent img {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
