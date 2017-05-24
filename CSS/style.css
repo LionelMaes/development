@@ -16,8 +16,9 @@ body {
 }
 
 #hoofdpagina_logo{
-  margin-left: 14%;
+  margin-left: 10%;
   margin-top: 33%;
+  width: 81%;
 }
 #a_hoofpagina{
   width: 100%;
@@ -27,8 +28,8 @@ body {
 #h1_hoofdpagina{
   font-family: "retrohand";
   color: #ffc18c;
-  font-size: 66px;
-  margin-left: 17%;
+  font-size: 450%;
+  margin-left: 13%;
   margin-top: 1%;
 }
 #login_logo{
@@ -70,10 +71,10 @@ input{
 hr{
   width: 25%;
   margin-top: 10%;
-  border-top: 1px solid #e7cbf4;
-  border-color: #e7cbf4;
-  background-color: #e7cbf4;
-  color: #e7cbf4;
+  border-top: 1px solid #e7cfb4;
+  border-color: #e7cfb4;
+  background-color: #e7cfb4;
+  color: #e7cfb4;
   display: inline-block; 
   float: left;
   margin-left: 5%;
@@ -110,5 +111,11 @@ a{
 @media screen and (max-width: 320px){
   #via{
     font-size: 120%;
+  }
+  #hoofdpagina_logo{
+    margin-left: 9;
+  }
+  #h1_hoofdpagina{
+    font-size: 370%;
   }
 }
