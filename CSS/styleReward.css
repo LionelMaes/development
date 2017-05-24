@@ -53,8 +53,7 @@ header {
   margin: 2em 27.5% 0 37.5%;
 }
 
-#aantalPunten,
-.titel {
+#aantalPunten {
   margin: 2em 0 0 0;
   text-align: center;
   color: #FFC18C;
@@ -62,7 +61,8 @@ header {
   font-family: helvetica;
 }
 
-#teBereiken {
+#teBereiken,
+.titel {
   margin: 0.5em 0 0 0;
   text-align: center;
   color: #E7CFB4;
@@ -78,4 +78,11 @@ button {
   background-color: #DA6D42;
   line-height: 2em;
   border-width: 0;
+}
+
+.titel {
+  background-color: rgba(86, 50, 50, 0.7);
+  padding-top: 0.5em;
+  margin-top: 1.5em;
+  padding-bottom: 0;
 }
