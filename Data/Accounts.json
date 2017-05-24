@@ -10,5 +10,23 @@
     "email": "lionel.maes@student.ehb.be",
     "password": "lionel",
     "leeftijd": 22
+    },
+     {
+    "username": "jal de beast",
+    "email": "jalle.van.goidsenhoven@student.ehb.be",
+    "password": "jalle",
+    "leeftijd": 19
+    },
+     {
+    "username": "kweet het ni jong",
+    "email": "boris@gmail.com",
+    "password": "ik hou van mijn mama",
+    "leeftijd": 18
+    },
+     {
+    "username": "weet ik veel",
+    "email": "weetikveel@gmail.com",
+    "password": "anneliesisleuk",
+    "leeftijd": 22
     }
   ]
