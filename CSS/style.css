@@ -8,49 +8,51 @@ font-family:"beer";
 font-family"retrohand";
 */
 
-
 body {
   background-image: url(../images/Hout.jpg);
   background-size: cover;
   color: #e7cfb4;
+  text-align: center;
 }
 
-#hoofdpagina_logo{
+#hoofdpagina_logo {
   margin-left: 14%;
   margin-top: 33%;
 }
-#a_hoofpagina{
+
+#a_hoofpagina {
   width: 100%;
   height: 100%;
 }
 
-#h1_hoofdpagina{
+#h1_hoofdpagina {
   font-family: "retrohand";
   color: #ffc18c;
   font-size: 66px;
   margin-left: 17%;
   margin-top: 14%;
 }
-#login_logo{
+
+#login_logo {
   margin-left: 33%;
   margin-top: 10%;
   width: 35%;
 }
 
-input{
+input {
   width: 80%;
   height: 30px;
   margin-left: 10%;
   margin-top: 7%;
 }
 
-#date_login{
+#date_login {
   margin-top: 7%;
   width: 20%;
   margin-left: 40%;
 }
 
-#button_registreren{
+#button_registreren {
   background-color: #Da6d42;
   border: 0px;
   width: 30%;
@@ -59,7 +61,7 @@ input{
   display: inline-block;
 }
 
-#button_aanmelden{
+#button_aanmelden {
   background-color: #Da6d42;
   border: 0px;
   width: 30%;
@@ -67,35 +69,34 @@ input{
   color: white;
 }
 
-hr{
+hr {
   width: 25%;
   margin-top: 10%;
   border-top: 1px solid #e7cbf4;
   border-color: #e7cbf4;
   background-color: #e7cbf4;
   color: #e7cbf4;
-  display: inline-block; 
+  display: inline-block;
   float: left;
   margin-left: 5%;
 }
 
-#via{
+#via {
   margin-left: 10%;
   font-family: 'beer';
   font-size: 25px;
   display: inline-block;
 }
 
-#hr_left{
+#hr_left {
   float: right;
 }
 
-#facebook{
+#facebook {
   margin-left: 9%;
 }
 
-.connect img{
+.connect img {
   margin-top: 5%;
   width: 27%;
 }
-

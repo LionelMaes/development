@@ -1,0 +1,101 @@
+/*kleurenpallet
+oranje #Da6d42
+beige(titels)  #e7cfb4
+donker rood #84240c
+geel beige oranje beige ding #ffc18c
+donkerste kleur is #563232
+font-family:"beer";
+font-family"retrohand";
+*/
+
+
+/* --- FONTS --- */
+
+@font-face {
+  font-family: retroHand;
+  src: url('../fonts/RETROHAND.ttf');
+}
+
+@font-face {
+  font-family: beer;
+  src: url('../fonts/BEER.ttf');
+}
+
+body {
+  background-image: url(../images/Hout.jpg);
+  background-size: cover;
+  color: #e7cfb4;
+  text-align: center;
+  font-size: 24px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+/* --- TITELS --- */
+
+h1 {
+  font-family: "beer";
+  color: #ffc18c;
+  font-size: 2.5em;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+p {
+  font-size: 1.5em;
+}
+
+
+/* --- HEADER --- */
+
+header {
+  height: 150px;
+  padding: 2%;
+  width: 100%;
+}
+
+.header {
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+
+#manApp {
+  font-family: retroHand;
+  color: #e7cfb4;
+  font-size: 2em;
+  padding-left: 8%;
+  margin-top: 1%;
+}
+
+#avatar {
+  height: 140px;
+  width: 20%;
+}
+
+#hamburger {
+  height: 60px;
+  width: 10%;
+  float: right;
+  margin-top: 1%;
+}
+
+#about {
+  width: 90%;
+}
+
+
+/* --- LOGO EHB --- */
+
+#logoEhb {
+  width: 15%;
+}
