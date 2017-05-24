@@ -16,12 +16,21 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+#hoofdpagina_logo {
+  margin-left: 14%;
+=======
+#hoofdpagina_logo{
+  margin-left: 10%;
+>>>>>>> done
+=======
 #hoofdpagina_logo{
   margin-left: 10%;
 =======
 #hoofdpagina_logo {
   margin-left: 14%;
 >>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
+>>>>>>> index is erbij
   margin-top: 33%;
   width: 81%;
 }
@@ -35,6 +44,16 @@ body {
   font-family: "retrohand";
   color: #ffc18c;
 <<<<<<< HEAD
+<<<<<<< HEAD
+  font-size: 66px;
+  margin-left: 17%;
+  margin-top: 14%;
+=======
+  font-size: 450%;
+  margin-left: 13%;
+  margin-top: 1%;
+>>>>>>> done
+=======
   font-size: 450%;
   margin-left: 13%;
   margin-top: 1%;
@@ -43,6 +62,7 @@ body {
   margin-left: 17%;
   margin-top: 14%;
 >>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
+>>>>>>> index is erbij
 }
 
 #login_logo {
@@ -85,11 +105,23 @@ hr {
   width: 25%;
   margin-top: 10%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+  border-top: 1px solid #e7cbf4;
+  border-color: #e7cbf4;
+  background-color: #e7cbf4;
+  color: #e7cbf4;
+  display: inline-block;
+=======
+=======
+>>>>>>> index is erbij
   border-top: 1px solid #e7cfb4;
   border-color: #e7cfb4;
   background-color: #e7cfb4;
   color: #e7cfb4;
   display: inline-block; 
+<<<<<<< HEAD
+>>>>>>> done
+=======
 =======
   border-top: 1px solid #e7cbf4;
   border-color: #e7cbf4;
@@ -97,6 +129,7 @@ hr {
   color: #e7cbf4;
   display: inline-block;
 >>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
+>>>>>>> index is erbij
   float: left;
   margin-left: 5%;
 }
@@ -120,6 +153,11 @@ hr {
   margin-top: 5%;
   width: 27%;
 <<<<<<< HEAD
+<<<<<<< HEAD
+}
+=======
+=======
+>>>>>>> index is erbij
 }
 
 a{
@@ -141,6 +179,10 @@ a{
     font-size: 370%;
   }
 }
+<<<<<<< HEAD
+>>>>>>> done
+=======
 =======
 }
 >>>>>>> 866372c861c2726a0159315946a41c77cf9dcd8c
+>>>>>>> index is erbij
