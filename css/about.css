@@ -1,4 +1,4 @@
-/*kleurenpallet
+/* --- KLEUREN --- 
 oranje #Da6d42
 beige(titels)  #e7cfb4
 donker rood #84240c
@@ -28,7 +28,6 @@ body {
   text-align: center;
   font-size: 32px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  z-index: 1;
 }
 
 .clearfix:after {
@@ -93,10 +92,6 @@ header {
 
 /* --- MENU --- */
 
-.menu {
-  z-index: 2;
-}
-
 .menu a {
   text-decoration: none;
   font-family: "beer";
@@ -123,17 +118,17 @@ main {
   display: block;
 }
 
-
-/* --- LOGO EHB --- */
-
-#logoEhb {
-  width: 50%;
-}
-
 .ingeklapt {
   display: none;
 }
 
 .uitgeklapt {
   display: block;
+}
+
+
+/* --- LOGO EHB --- */
+
+#logoEhb {
+  width: 50%;
 }
