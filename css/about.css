@@ -127,6 +127,42 @@ main {
 }
 
 
+/* --- ACHIEVEMENTS --- */
+
+.achievements li {
+  list-style: none;
+  float: right;
+  width: 250px;
+}
+
+.achievements a {
+  display: inline-block;
+  text-indent: -9999px;
+  /*height: 32px;
+  width: 32px;*/
+  height: 213px;
+  width: 204px;
+  background-image: url('../images/badges.png');
+  background-size: 1602px 213px;
+}
+
+.sun a {
+  background-position: -276px 0px;
+}
+
+.bat a {
+  background-position: -560px 0px;
+}
+
+.trex a {
+  background-position: -840px 0px;
+}
+
+.uknown a {
+  background-position: -204px 0px;
+}
+
+
 /* --- LOGO EHB --- */
 
 #logoEhb {
