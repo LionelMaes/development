@@ -1,0 +1,178 @@
+/*-------------- navigatie en achtergrond------------------ */
+
+@font-face {
+  font-family: retroHand;
+  src: url('../fonts/RETROHAND.ttf');
+}
+
+.clearfix {
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+body {
+  background-image: url(../images/Hout.jpg);
+  padding: 8%;
+}
+
+.header {
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+
+#manApp {
+  font-family: retroHand;
+  color: #e7cfb4;
+  font-size: 55px;
+  margin-left: 0.5em;
+  margin-top: 0.7em;
+}
+
+#avatar {
+  height: 140px;
+  width: 140px;
+}
+
+#hamburger {
+  height: 60px;
+  width: 80px;
+  float: right;
+  margin-top: 2em;
+}
+
+
+/*--------------------- leaderboard top 3------------------ */
+
+#titel {
+  font-family: beer;
+  color: white;
+  font-size: 50px;
+}
+
+#topDrie {
+  display: block;
+  height: 50vh;
+}
+
+#topDrie h1 {
+  text-align: center;
+  position:
+}
+
+#nummerEen {
+  width: 30%;
+  margin-left: 180px;
+}
+
+#nummerEen h2 {
+  text-align: center;
+}
+
+#nummerEen p {
+  text-align: center;
+}
+
+#nummerTwee {
+  width: 30%;
+  margin-top: 60px;
+  float: left;
+}
+
+#nummerTwee h2 {
+  text-align: center;
+}
+
+#nummerTwee p {
+  text-align: center;
+}
+
+#nummerDrie {
+  width: 30%;
+  margin-top: 60px;
+  margin-left: 400px;
+}
+
+#nummerDrie h2 {
+  text-align: center;
+}
+
+#nummerDrie p {
+  text-align: center;
+}
+
+#leaderboard #topDrie div {
+  position: absolute
+}
+
+#leaderboard #topDrie p {
+  color: cornsilk;
+  font-family: helvetica;
+  font-size: 28px;
+  margin: 0;
+}
+
+#leaderboard #topDrie h2 {
+  color: white;
+  font-family: helvetica;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+
+/*--------------------leaderboard onderaan-------------*/
+
+#rest {
+  color: white;
+}
+
+#rest h3 {
+  font-family: beer;
+  display: inline-block;
+  font-size: 50px;
+}
+
+#rest p {
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+#nummer {
+  text-align: left;
+  width: 20px;
+}
+
+#naam {
+  width: 20px;
+}
+
+#level {
+  width: 20px;
+}
+
+#naam {
+  margin-left: 20%;
+}
+
+#level {
+  float: right;
+  margin-right: 38px;
+}
+
+#rest div {
+  display: inline-block;
+}
+
+#divLevel {
+  float: right;
+  text-align: right;
+}
+
+#divNaam {
+  margin-left: 20%;
+  text-align: left;
+}
+

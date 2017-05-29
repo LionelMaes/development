@@ -1,0 +1,174 @@
+/*-------------- navigatie en achtergrond------------------ */
+
+@font-face {
+  font-family: retroHand;
+  src: url('../fonts/RETROHAND.ttf');
+}
+
+.clearfix {
+  display: block;
+  font-size: 0;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+body {
+  background-image: url(../images/Hout.jpg);
+  padding: 8%;
+}
+
+.header {
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+
+#manApp {
+  font-family: retroHand;
+  color: #e7cfb4;
+  font-size: 55px;
+  margin-left: 1.5em;
+  margin-top: 0.7em;
+}
+
+#avatar {
+  height: 140px;
+  width: 140px;
+}
+
+#hamburger {
+  height: 60px;
+  width: 80px;
+  float: right;
+  margin-top: 2vh;
+}
+
+
+/*----------------pop up--------------------*/
+
+
+#popup {
+  width: 80%;
+  margin-top: 10vh;
+  background-color: #513232;
+  height: 50vh;
+  padding: 8%;
+  margin-right: 0;
+  
+}
+
+#popupText {
+  width: 45%;
+  position: absolute;
+}
+
+#popupText p {
+  color: white;
+  font-family: helvetica;
+  font-size: 2.3em;
+  margin-top: 20%;
+  
+}
+
+#popupCheckers {
+  float: right;
+  width: 45%;
+  height: 20vh;
+}
+
+#popup h1 {
+  text-align: center;
+  color: white;
+  font-family: beer;
+  font-size:3em;
+  
+}
+
+.checkers {
+  float: right;
+  display: block;
+  margin-right: 100px;
+  margin-bottom: 2%;
+}
+
+.checkers:first-of-type {
+  margin-top: 30%;
+}
+
+#imgSocialmedia {
+  margin-top: 18%;
+  height:70px;
+}
+
+#checkbox{
+  height: 40px;
+  width: 40px;
+  margin-bottom: 9%;
+}
+
+#taalselector{
+  height:30px;
+  width:100px;
+  margin-top:25%;
+}
+
+
+#kruis {
+  float:right;
+  margin-top:4%
+  
+}
+
+#logOut{
+  position: absolute;
+  margin-top: 38vh;
+  right:28%;
+  
+  left: 23%;
+  background-color: #DA6D42;
+  text-align: center;
+  padding:2%;
+  
+}
+
+#logOut a{
+  text-decoration: none;
+  font-family: beer;
+  font-size: 2em;
+  color: white;
+  
+}
+
+/*---------- opmaak checkers --------------*/
+
+#checkbox {
+  -webkit-appearance: none;
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 9px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+#checkbox:active, #checkbox:checked:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+#checkbox:checked {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+#checkbox:checked:after {
+	content: '\2714';
+	font-size: 32px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}

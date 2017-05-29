@@ -1,23 +1,71 @@
-/*kleurenpallet
-oranje #Da6d42
-beige(titels)  #e7cfb4
-donker rood #84240c
-geel beige oranje beige ding #ffc18c
-donkerste kleur is #563232
-font-family:"beer";
-font-family"retrohand";
+/* --- KLEUREN ---
+
+Oranje      #Da6d42
+Beige       #e7cfb4
+Donker-rood #84240c
+Geel-beige  #ffc18c
+Bruin       #563232
 */
+
+
+/* --- FONTS --- */
+
+@font-face {
+  font-family: retroHand;
+  src: url('../fonts/RETROHAND.ttf');
+}
+
+@font-face {
+  font-family: beer;
+  src: url('../fonts/BEER.ttf');
+}
+
+
+/* --- ALGEMENE CSS --- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-image: url(../images/Hout.jpg);
   background-size: cover;
   color: #e7cfb4;
-  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+/* - TEKST - */
+
+h1 {
+  font-family: "beer";
+  color: #ffc18c;
+  font-size: 200%;
+  margin-left: 0%;
+  margin-top: 1%;
+}
+
+p {
+  font-size: 120%;
+}
+
+
+/* --- SPLASH-PAGINA --- */
 
 #hoofdpagina_logo {
   margin-left: 14%;
   margin-top: 33%;
+  width: 81%;
 }
 
 #a_hoofpagina {
@@ -28,10 +76,13 @@ body {
 #h1_hoofdpagina {
   font-family: "retrohand";
   color: #ffc18c;
-  font-size: 66px;
-  margin-left: 17%;
-  margin-top: 14%;
+  font-size: 450%;
+  margin-left: 13%;
+  margin-top: 1%;
 }
+
+
+/* --- LOGIN-PAGINA --- */
 
 #login_logo {
   margin-left: 33%;
@@ -43,11 +94,9 @@ input {
   width: 80%;
   height: 30px;
   margin-left: 10%;
-  margin-top: 7%;
 }
 
 #date_login {
-  margin-top: 7%;
   width: 20%;
   margin-left: 40%;
 }
@@ -59,6 +108,7 @@ input {
   margin-left: 17%;
   color: white;
   display: inline-block;
+  margin-top: 8%;
 }
 
 #button_aanmelden {
@@ -69,7 +119,7 @@ input {
   color: white;
 }
 
-hr {
+#loginlijn {
   width: 25%;
   margin-top: 10%;
   border-top: 1px solid #e7cbf4;
@@ -84,12 +134,21 @@ hr {
 #via {
   margin-left: 10%;
   font-family: 'beer';
-  font-size: 25px;
+  font-size: 150%;
   display: inline-block;
+  margin-top: 8%;
 }
 
 #hr_left {
   float: right;
+  width: 25%;
+  margin-top: 10%;
+  border-top: 1px solid #e7cbf4;
+  border-color: #e7cbf4;
+  background-color: #e7cbf4;
+  color: #e7cbf4;
+  display: inline-block;
+  margin-left: 5%;
 }
 
 #facebook {
@@ -99,4 +158,290 @@ hr {
 .connect img {
   margin-top: 5%;
   width: 27%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.login_p {
+  margin-left: 10%;
+}
+
+
+/* --- HEADER --- */
+
+header {
+  height: 150px;
+  padding: 2%;
+  width: 100%;
+}
+
+.header {
+  float: left;
+  display: block;
+  overflow: hidden;
+}
+
+.manapp {
+  font-family: retroHand;
+  color: #e7cfb4;
+  font-size: 2em;
+  padding-left: 8%;
+  margin-top: 1%;
+}
+
+.avatar {
+  width: 15%;
+}
+
+#hamburger {
+  height: 60px;
+  width: 10%;
+  float: right;
+  margin-top: 1%;
+}
+
+
+/* --- MENU --- */
+
+.menu a {
+  text-decoration: none;
+  font-family: "beer";
+  color: #ffc18c;
+  font-size: 200%;
+  text-align: center;
+}
+
+.menu li {
+  list-style: none;
+  padding: 5%;
+  margin-top: 2%;
+  /* margin-bottom: 2%;*/
+  margin-left: -7.5%;
+  margin-right: -1%;
+  background-color: rgba(86, 50, 50, 0.8);
+}
+
+.menu ul:first-child {
+  margin-top: 20%;
+}
+
+main {
+  display: block;
+}
+
+.ingeklapt {
+  display: none;
+}
+
+.uitgeklapt {
+  display: block;
+}
+
+
+/* --- DASHBOARD --- */
+
+
+/* --- OPDRACHTEN --- */
+
+
+/* --- PROFIEL --- */
+
+
+/* - ACHIEVEMENTS - */
+
+.achievements li {
+  list-style: none;
+  float: right;
+  width: 250px;
+}
+
+.achievements a {
+  display: inline-block;
+  text-indent: -9999px;
+  /*height: 32px;
+  width: 32px;*/
+  height: 213px;
+  width: 204px;
+  background-image: url('../images/badges.png');
+  background-size: 1602px 213px;
+}
+
+.sun a {
+  background-position: -276px 0px;
+}
+
+.bat a {
+  background-position: -560px 0px;
+}
+
+.trex a {
+  background-position: -840px 0px;
+}
+
+.uknown a {
+  background-position: -204px 0px;
+}
+
+
+/* --- LEADERBOARD --- */
+
+
+/* - TOP DRIE - */
+
+#topDrie {
+  display: block;
+  height: 50vh;
+}
+
+#topDrie h1 {
+  text-align: center;
+}
+
+#nummerEen {
+  width: 30%;
+  margin-left: 180px;
+}
+
+#nummerEen h2 {
+  text-align: center;
+}
+
+#nummerEen p {
+  text-align: center;
+}
+
+#nummerTwee {
+  width: 30%;
+  margin-top: 60px;
+  float: left;
+}
+
+#nummerTwee h2 {
+  text-align: center;
+}
+
+#nummerTwee p {
+  text-align: center;
+}
+
+#nummerDrie {
+  width: 30%;
+  margin-top: 60px;
+  margin-left: 400px;
+}
+
+#nummerDrie h2 {
+  text-align: center;
+}
+
+#nummerDrie p {
+  text-align: center;
+}
+
+#leaderboard #topDrie div {
+  position: absolute
+}
+
+#leaderboard #topDrie p {
+  color: #e7cfb4;
+  font-family: helvetica;
+  font-size: 28px;
+  margin: 0;
+}
+
+#leaderboard #topDrie h2 {
+  color: #e7cfb4;
+  font-family: helvetica;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+
+/* - TOP VIJF AFMAKEN - */
+
+#rest {
+  color: #e7cfb4;
+}
+
+#rest h3 {
+  font-family: beer;
+  display: inline-block;
+  font-size: 50px;
+}
+
+#rest p {
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+#nummer {
+  text-align: left;
+  width: 20px;
+}
+
+#naam {
+  width: 20px;
+}
+
+#level {
+  width: 20px;
+}
+
+#naam {
+  margin-left: 20%;
+}
+
+#level {
+  float: right;
+  margin-right: 38px;
+}
+
+#rest div {
+  display: inline-block;
+}
+
+#divLevel {
+  float: right;
+  text-align: right;
+}
+
+#divNaam {
+  margin-left: 20%;
+  text-align: left;
+}
+
+
+/* --- REWARDS --- */
+
+
+/* --- FAQ --- */
+
+
+/* --- INSTELLINGEN --- */
+
+
+/* --- ABOUT PAGINA --- */
+
+
+/* - LOGO EHB - */
+
+#logoEhb {
+  width: 50%;
+}
+
+
+/* --- MEDIAQUERIES --- */
+
+@media screen and (max-width: 320px) {
+  #via {
+    font-size: 120%;
+  }
+  #hoofdpagina_logo {
+    margin-left: 9;
+  }
+  #h1_hoofdpagina {
+    font-size: 370%;
+  }
 }

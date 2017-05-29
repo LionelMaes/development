@@ -1,0 +1,159 @@
+{
+  "opdrachten": [
+    {
+      "ID": 1
+      , "afbeelding": "../images/koffer.png"
+      , "titel": "Cultuur snuiven"
+      , "beschrijving": "Snuif eens wat anders dan haar parfum en ga naar een museum of kunstgalerie. "
+      , "punten": 15
+        },
+
+    {
+      "ID": 2
+      , "afbeelding": "../images/bloem.png"
+      , "titel": "Lief berichtje"
+      , "beschrijving": "Stuur je vriend(in) een bericht met een lieve boodschap"
+      , "punten": 5
+        },
+
+    {
+      "ID": 3
+      , "afbeelding": "../images/koffer.png"
+      , "titel": "Date-Night"
+      , "beschrijving": "Plan een volledige date voor je vriendin. Zorg voor een uur, dresscode, goed restaurant en eventuele andere activiteiten."
+      , "punten": 10
+        },
+
+    {
+      "ID": 4
+      , "afbeelding": "../images/bloem.png"
+      , "titel": "No-Screen-Time"
+      , "Beschrijving": "Voer een gesprek terwijl je naar haar ogen kijkt in plaats van naar een of ander scherm. Haar ogen zitten wel net iets hoger, hoor!"
+      , "punten": 5
+        },
+
+    {
+      "ID": 5
+      , "afbeelding": "../images/speciaal.png"
+      , "titel": "BFF-date"
+      , "Beschrijving": "Stuur haar en haar beste vriendin naar een wellnesscentrum. Zo kan ook jij even rustig genieten."
+      , "punten": 20
+        }
+    , {
+      "ID": 6
+      , "afbeelding": "../images/bloem.png"
+      , "titel": "Your Love Soundtrack"
+      , "beschrijving": "Maak een mixtape of afspeellijst met liedjes speciaal voor haar."
+      , "punten": 5
+        }
+    , {
+      "ID": 7
+      , "afbeelding": "../images/speciaal.png"
+      , "titel": "Massage Tijd"
+      , "beschrijving": "Geef haar een massage met massage olie en wie weet ken je zelf wel een happy ending."
+      , "punten": 20
+        },
+
+    {
+      "ID": 8
+      , "afbeelding": "../images/koffer.png"
+      , "titel": "Weekend weg"
+      , "beschrijving": "Haar favoriete stad, zonnig weer, een hotelkamer voor jullie twee, … Wie weet wil ze niets eens de stad gaan bezichtigen.. ;)"
+      , "punten": 15
+        },
+
+    {
+      "ID": 9
+      , "afbeelding": "../images/bloem.png"
+      , "titel": "Paint a portret"
+      , "Beschrijving": "Teken, schilder, knutsel, etc.  een portret van uw vriendin."
+      , "punten": 5
+        },
+
+    {
+      "ID": 10
+      , "afbeelding": "../images/diner.png"
+      , "titel": "Double-Date-Night"
+      , "Beschrijving": "Ga met wat vriendinnen van jouw vriendin mee naar haar favoriete restaurant"
+      , "punten": 10
+        }
+    , {
+      "ID": 11
+      , "afbeelding": "../images/andere.png"
+      , "titel": "Water besparen "
+      , "beschrijving": "Bespaar wat water en douche samen. Of kruip lekker gezellig tegen elkaar aan in bad. Een lekker schuimpje, wat achtergrondmuziek en een glas wijn voor de liefhebbers"
+      , "punten": 5
+        },
+
+    {
+      "ID": 12
+      , "afbeelding": "../images/diner.png"
+      , "titel": "Kook samen"
+      , "beschrijving": "Maak samen een ingewikkeld gerecht klaar."
+      , "punten": 10
+        },
+
+    {
+      "ID": 13
+      , "afbeelding": "../images/andere.png"
+      , "titel": "Netflix & Chill"
+      , "beschrijving": "Kijk samen een nieuwe serie of een goede film."
+      , "punten": 5
+        },
+
+    {
+      "ID": 14
+      , "afbeelding": "../images/andere.png"
+      , "titel": "Picture Perfect"
+      , "Beschrijving": "Deel een leuke foto van jullie twee op je SnapChat, Facebook, Instagram of een ander sociaal netwerk. (Liefst niet posten op LinkedIn, je baas zal daar niet blij mee zijn!)"
+      , "punten": 5
+        },
+
+    {
+      "ID": 15
+      , "afbeelding": "../images/diner.png"
+      , "titel": "Ontbijt op bed"
+      , "Beschrijving": "Sta vroeger op en maak een 3-sterren ontbijt klaar en breng het in bed"
+      , "punten": 10
+        }
+    , {
+      "ID": 16
+      , "afbeelding": "../images/speciaal.png"
+      , "titel": "Een serenade voor haar"
+      , "beschrijving": "Voor de creatieve geest: schrijf zelf een lied, een tekst, een gedicht, etc. voor haar. "
+      , "punten": 20
+        },
+
+    {
+      "ID": 17
+      , "afbeelding": "../images/bloem.png"
+      , "titel": "Stoef over haar"
+      , "beschrijving": "Wanneer ze erbij staat stoef over haar bij u vrienden, vriendinnen of haar vriendinnen."
+      , "punten": 5
+        },
+
+    {
+      "ID": 18
+      , "afbeelding": "../images/speciaal.png"
+      , "titel": "Sexy talk"
+      , "beschrijving": "Stuur wat fijne en seksueel getinte berichten naar je vriendin. En wie weet mag je die 's avonds eens allemaal uitproberen ;)"
+      , "punten": 20
+        },
+
+    {
+      "ID": 19
+      , "afbeelding": "../images/diner.png"
+      , "titel": "Sexy eten"
+      , "Beschrijving": "Speelt met eten in bed, sexy-time!!!"
+      , "punten": 10
+        },
+
+    {
+      "ID": 20
+      , "afbeelding": "../images/andere.png"
+      , "titel": "Stuur eerst een bericht"
+      , "Beschrijving": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin iaculis egestas nulla eu maximus."
+      , "punten": 5
+        }
+    ]
+}
